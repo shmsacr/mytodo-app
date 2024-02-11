@@ -1,6 +1,11 @@
 {
   "expo": {
     "name": "mytodo-app",
-    "slug": "mytodo-app"
+    "slug": "mytodo-app",
+    "android": {
+      "permission": [
+        "android.permission.INTERNET"
+      ]
+    }
   }
 }
